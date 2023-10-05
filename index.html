@@ -1,0 +1,525 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>HTML Template</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body {
+      width: 100% !important;
+      -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+      margin: 0;
+      padding: 0;
+      line-height: 100%;
+    }
+
+    [style*=Arial] {
+      font-family: Arial, sans-serif !important;
+    }
+
+    img {
+      outline: none;
+      text-decoration: none;
+      border: none;
+      -ms-interpolation-mode: bicubic;
+      max-width: 100% !important;
+      margin: 0;
+      padding: 0;
+      display: block;
+    }
+
+    table td {
+      border-collapse: collapse;
+    }
+
+    table {
+      border-collapse: collapse;
+      mso-table-lspace: 0pt;
+      mso-table-rspace: 0pt;
+    }
+
+    h2,
+    h3,
+    h4,
+    p {
+      margin: 0;
+    }
+
+    .pb-21 {
+      padding-bottom: 21px;
+    }
+
+    .mb-32 {
+      margin-bottom: 32px;
+    }
+
+    .pb-40 {
+      padding-bottom: 40px;
+    }
+
+    .mr-10 {
+      margin-right: 10px;
+    }
+
+    .logo {
+      padding-top: 30px;
+      padding-bottom: 28px;
+    }
+
+    .hero__text {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
+    .hero h2 {
+      margin-top: 32px;
+      margin-bottom: 13px;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 20px;
+      line-height: 24px;
+    }
+
+    .hero p {
+      margin-bottom: 11px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 24px;
+    }
+
+    .artists {
+      color: #ffffff;
+      padding-top: 26px;
+      padding-bottom: 34px;
+    }
+
+    h3 {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px;
+    }
+
+    .artists h3 {
+      margin-top: 19px;
+    }
+
+    .artists h4 {
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 24px;
+    }
+
+    .artists p {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    .more {
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
+
+    .more__card {
+      padding-right: 8px !important;
+      padding-top: 11px;
+    }
+
+    .more p {
+      margin-top: 10px;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 18px;
+    }
+
+    .btn {
+      width: 240px;
+      padding-top: 22.5px;
+      padding-bottom: 22.5px;
+      background: #9D5CD0;
+      border-radius: 48px;
+      text-align: center;
+    }
+
+    .btn a {
+      color: #FFFFFF;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 0px;
+      width: 100%;
+      height: 100%;
+      text-decoration: none;
+    }
+
+    .footer-black {
+      padding-top: 27.5px;
+    }
+
+    .footer-black p {
+      color: #757575;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 12px;
+      line-height: 24px;
+      padding-bottom: 7px;
+    }
+
+    .social {
+      margin-bottom: 7px;
+    }
+
+    .footer-grey p {
+      display: inline;
+      color: #757575;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 24px;
+    }
+
+    .footer-grey a {
+      color: #9D5CD0;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 10px;
+      line-height: 24px;
+    }
+
+    @media (max-width: 599px) {
+      .table-600 {
+        width: 280px !important;
+      }
+
+      .table-520,
+      .table-490 {
+        width: 244px !important;
+      }
+
+      .logo  {
+        width: 114px;
+      }
+
+      .logo {
+        padding-top: 17px;
+        padding-bottom: 17px;
+      }
+
+      .artists h3 {
+        margin-top: 15px;
+      }
+
+      .pb-10 {
+        padding-bottom: 10px;
+      }
+
+      .pic1 {
+        height: 300px;
+      }
+
+      .hero__text {
+        padding-left: 18px !important;
+        padding-right: 18px !important;
+      }
+
+      .mobile {
+        display: block !important;
+      }
+    }
+  </style>
+</head>
+
+<body style="margin: 0; padding: 0;">
+  <div style="font-size:0px;font-color:#ffffff;opacity:0;visibility:hidden;width:0;height:0;display:none;">Тестовое
+    письмо</div>
+  <table class="table-600" cellpadding="0" cellspacing="0" width="600" bgcolor="#ffffff">
+    <tr>
+      <td>
+        <table class="hero table-600" cellpadding="0" cellspacing="0" width="600">
+          <tr>
+            <td bgcolor="#000000;" align="center" class="logo">
+              <img
+                src="https://raw.githubusercontent.com/Maria-Ba-ra-no-va/img-by-task1/main/%D0%9B%D0%BE%D0%B3%D0%BE.png"
+                alt="Логотип" />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <img class="pic1" src="https://raw.githubusercontent.com/Maria-Ba-ra-no-va/img-by-task1/main/1.jpg"
+                alt="Изображение" />
+            </td>
+          </tr>
+          <tr>
+            <td class="hero__text">
+              <h2 style="font-family: Arial, sans-serif;">Торжество импрессионизма</h2>
+              <p style="font-family: Arial, sans-serif;">Опыт говорит нам, что семантический разбор внешних
+                противодействий требует анализа новых принципов формирования материально-технической и кадровой базы.
+              </p>
+              <p style="font-family: Arial, sans-serif;">Задача организации, в особенности же внедрение современных
+                методик, в своём классическом представлении, допускает внедрение глубокомысленных рассуждений. Есть над
+                чем задуматься: элементы политического процесса преданы социально&nbsp;-&nbsp;демократической анафеме!
+                Но
+                интерактивные прототипы заблокированы в рамках своих собственных рациональных ограничений. Сторонники
+                тоталитаризма в науке ограничены исключительно образом мышления.</p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td class="artists">
+        <table bgcolor="#000" cellpadding="0" cellspacing="0" class="table-600" width="600">
+          <tr>
+            <td>
+              <table cellpadding="0" cellspacing="0" class="table-520" width="520" align="center">
+                <tr>
+                  <td class="pb-21">
+                    <h3 style="font-family: Arial, sans-serif;">Представленные художники</h3>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="pb-21">
+                    <table cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td class="pb-21 pb-10">
+                          <img src="https://raw.githubusercontent.com/Maria-Ba-ra-no-va/img-by-task1/main/picture1.png"
+                            alt="Картина" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h4 style="font-family: Arial, sans-serif;">Поль Гоген</h4>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p style="font-family: Arial, sans-serif;">Прежде всего, разбавленное изрядной долей эмпатии,
+                            рациональное мышление в значительной степени обусловливает важность укрепления моральных
+                            ценностей.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="pb-21">
+                    <table cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td class="pb-21 pb-10">
+                          <img src="https://raw.githubusercontent.com/Maria-Ba-ra-no-va/img-by-task1/main/picture2.png"
+                            alt="Картина" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h4 style="font-family: Arial, sans-serif;">Огюст Ренуар</h4>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p style="font-family: Arial, sans-serif;">А также сделанные на базе
+                            интернет&nbsp;-&nbsp;аналитики выводы
+                            освещают чрезвычайно интересные особенности картины в целом.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="pb-21">
+                    <table cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td class="pb-21 pb-10">
+                          <img src="https://raw.githubusercontent.com/Maria-Ba-ra-no-va/img-by-task1/main/picture3.png"
+                            alt="Картина" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h4 style="font-family: Arial, sans-serif;">Клод Моне</h4>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p style="font-family: Arial, sans-serif;">Современная методология разработки однозначно
+                            фиксирует
+                            необходимость системы массового участия.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="pb-21">
+                    <table cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td class="pb-21 pb-10">
+                          <img src="https://raw.githubusercontent.com/Maria-Ba-ra-no-va/img-by-task1/main/picture4.png"
+                            alt="Картина" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h4 style="font-family: Arial, sans-serif;">Эдуард Мане</h4>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p style="font-family: Arial, sans-serif;">Но социально-экономическое развитие является
+                            качественно
+                            новой ступенью вывода текущих активов.</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="pb-21">
+                    <table cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td class="pb-21 pb-10">
+                          <img src="https://raw.githubusercontent.com/Maria-Ba-ra-no-va/img-by-task1/main/picture5.png"
+                            alt="Картина" />
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <h4 style="font-family: Arial, sans-serif;">Винсент Ван Гог</h4>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>
+                          <p style="font-family: Arial, sans-serif;">Повседневная практика показывает, что разбавленное
+                            изрядной долей эмпатии, рациональное мышление требует анализа поставленных обществом задач.
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table class="more table-600" cellpadding="0" cellspacing="0" width="600">
+          <tr>
+            <td>
+              <table class="table-520" width="520" cellpadding="0" cellspacing="0" align="center">
+                <tr>
+                  <td>
+                    <h3 style="font-family: Arial, sans-serif;">И это ещё не всё!</h3>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table class="mb-32 table-490" cellpadding="0" cellspacing="0" width="490">
+                      <tr>
+                        <td class="mobile more__card" valign="top">
+                          <img
+                            src="https://raw.githubusercontent.com/Maria-Ba-ra-no-va/img-by-task1/main/check-square.png"
+                            alt="Иконка" />
+                          <p style="font-family: Arial, sans-serif;">Уникальные подборки работ с авторскими рецензиями
+                          </p>
+                        </td>
+                        <td class="mobile more__card" valign="top">
+                          <img src="https://raw.githubusercontent.com/Maria-Ba-ra-no-va/img-by-task1/main/calendar.png"
+                            alt="Иконка" />
+                          <p style="font-family: Arial, sans-serif;">Возможность настроить нашу&nbsp;nрассылку под свой
+                            личный вкус
+                          </p>
+
+                        </td>
+                        <td class="mobile more__card" valign="top">
+                          <img
+                            src="https://raw.githubusercontent.com/Maria-Ba-ra-no-va/img-by-task1/main/arrow-up-circle.png"
+                            alt="Иконка" />
+                          <p style="font-family: Arial, sans-serif;">У вас есть пожелания и предложения?<br />
+                            Напишите нам в ответ на это письмо!</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    <table class="mb-32" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td class="btn">
+                          <a href="#" style="font-family: Arial, sans-serif;">Узнать все подробности</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <table class="table-600" cellpadding="0" cellspacing="0" width="600">
+          <tr>
+            <td class="footer-black" bgcolor="#000000;" align="center">
+              <table class="table-247" cellpadding="0" cellspacing="0" width="247">
+                <tr>
+                  <td align="center">
+                    <table class="social" cellpadding="0" cellspacing="0" width="143">
+                      <tr>
+                        <td align="left">
+                          <a href="#">
+                            <img src="https://raw.githubusercontent.com/Maria-Ba-ra-no-va/img-by-task1/main/vk.png"
+                              alt="Иконка" />
+                          </a>
+                        </td>
+                        <td align="center">
+                          <a href="#">
+                            <img
+                              src="https://raw.githubusercontent.com/Maria-Ba-ra-no-va/img-by-task1/main/instagram.png"
+                              alt="Иконка" />
+                          </a>
+                        </td>
+                        <td align="right">
+                          <a href="#">
+                            <img src="https://raw.githubusercontent.com/Maria-Ba-ra-no-va/img-by-task1/main/fb.png"
+                              alt="Иконка" />
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center">
+                    <p style="font-family: Arial, sans-serif;"> Blanchard © 2020 / Все права защищены</p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr>
+            <td class="footer-grey" bgcolor="#EBEBEB" align="center">
+              <p style="font-family: Arial, sans-serif;">Вы можете так же</p>
+              <a href="#">отписаться от рассылки</a>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+
+</html>
